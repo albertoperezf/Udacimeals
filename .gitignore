@@ -84,3 +84,5 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
+.idea/inspectionProfiles/
+src/actions/
