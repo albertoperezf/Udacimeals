@@ -34,12 +34,12 @@ class App extends Component {
                     placeholder="Monday's Breakfast"
                 />
                 <button onClick={this.submitFood}>Submit</button>
-
                 <pre>
-          Monday's Breakfast: {this.state.calendar && this.state.calendar.monday.breakfast}
-        </pre>
+                  Monday's Breakfast: {this.state.calendar && this.state.calendar.monday.breakfast}
+                </pre>
             </div>
         )
     }
 }
+
 export default App
