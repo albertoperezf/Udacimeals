@@ -20,7 +20,7 @@ function mapStateToProps ({food, calendar}) {
             day,
             meals: Object.keys(calendar[day]).reduce((meals, meal) => {
                 meals[meal] = calendar[day][meal]
-                    ? ? food[calendar[day][meal]]
+                    ? food[calendar[day][meal]]
                     : null
 
                 return meals
